@@ -7,6 +7,10 @@ import matplotlib.pyplot as plt
 from scipy.io import wavfile
 ```
 ## **Parte A: – Adquisición de las señales de voz**
+Se realiza el siguiente diagrama de flujo:
+<img width="457" height="841" alt="image" src="https://github.com/user-attachments/assets/01ff4809-33bf-4559-83a7-4cc133acb23c" />
+<img width="363" height="685" alt="image" src="https://github.com/user-attachments/assets/8ad10946-22a5-4dbc-85e5-2d4403e7b927" />
+
 Primero, se carga un archivo de sonido (.wav) y se grafica su forma de onda, lo que permite observar cómo varía la amplitud del audio a lo largo del tiempo. Luego, mediante la Transformada de Fourier convierte una señal del dominio del tiempo al dominio de la frecuencia, descomposiéndola en sus componentes sinusoidales. Esto permite analizar las frecuencias presentes en la señal, revelando la amplitud y fase de cada frecuencia.
 Para hallar las graficarlas en el dominio del tiempo de la voz para los 6 individuos, se tiene el siguiente codigo:
 ```python
