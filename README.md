@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from scipy.io import wavfile
 ```
 ## **Parte A: – Adquisición de las señales de voz**
-Se realiza el siguiente diagrama de flujo:
+Se realiza el siguiente diagrama de flujo:\
 <img width="457" height="841" alt="image" src="https://github.com/user-attachments/assets/01ff4809-33bf-4559-83a7-4cc133acb23c" />
 <img width="363" height="685" alt="image" src="https://github.com/user-attachments/assets/8ad10946-22a5-4dbc-85e5-2d4403e7b927" />
 
@@ -97,57 +97,68 @@ intensidad = np.sum(y**2)
 print(f"Intensidad: {intensidad:.3f}")
 ```
 **RESULTADOS PARTE A**
+- HOMBRE 1:
+  
+Imagen 1. Señal en dominio del tiempo, Hombre 1\
+<img width="991" height="437" alt="image" src="https://github.com/user-attachments/assets/00b82da4-aef7-4444-84a7-4c9523e85b32" />
+Imagen 2. Transformada de Fourier y espectro de magnitudes frecuenciales, Hombre 1.\
+<img width="632" height="507" alt="image" src="https://github.com/user-attachments/assets/371ccd2e-fbc4-49a3-8145-3f8c2ac31251" />
+
+Imagen 3. Caracteristicas de la señal, Hombre 1.\
+<img width="277" height="83" alt="image" src="https://github.com/user-attachments/assets/33af227b-3648-4af3-87f4-7a9c6ed55073" />
+
+  
 - HOMBRE 2 :
   
-Imagen 1. Señal en dominio del tiempo, Hombre 2\
+Imagen 4. Señal en dominio del tiempo, Hombre 2\
 <img width="990" height="438" alt="image" src="https://github.com/user-attachments/assets/1b1fbea9-7ab7-4685-823c-0c95b66a0e9c" />
-Imagen 2. Transformada de Fourier y espectro de magnitudes frecuenciales, Hombre 2.\
+Imagen 5. Transformada de Fourier y espectro de magnitudes frecuenciales, Hombre 2.\
 <img width="621" height="508" alt="image" src="https://github.com/user-attachments/assets/75b1bd0e-edbd-45c0-bcfe-eb9cd9b7a53d" />
 
-Imagen 3. Caracteristicas de la señal, Hombre 2.\
+Imagen 6. Caracteristicas de la señal, Hombre 2.\
 <img width="261" height="77" alt="image" src="https://github.com/user-attachments/assets/6c183358-6bf3-4d07-915d-699903faae37" />
 
 
 - HOMBRE 3:
   
-Imagen 4. Señal en dominio del tiempo, Hombre 3\
+Imagen 7. Señal en dominio del tiempo, Hombre 3\
   <img width="987" height="436" alt="image" src="https://github.com/user-attachments/assets/ea86a544-ec4b-4bc5-9e8a-70ded34ea18d" />
-Imagen 5. Transformada de Fourier y espectro de magnitudes frecuenciales, Hombre 3.\
+Imagen 8. Transformada de Fourier y espectro de magnitudes frecuenciales, Hombre 3.\
   <img width="617" height="505" alt="image" src="https://github.com/user-attachments/assets/f674219c-97cb-4f23-8833-a2d9de42967a" />
   
-Imagen 6. Caracteristicas de la señal, Hombre 3.\
+Imagen 9. Caracteristicas de la señal, Hombre 3.\
   <img width="263" height="76" alt="image" src="https://github.com/user-attachments/assets/531e18c2-7730-4023-a361-a7d78ba2555b" />
 
 - MUJER 1:
 
-Imagen 7. Señal en dominio del tiempo, Mujer 1\
+Imagen 10. Señal en dominio del tiempo, Mujer 1\
   <img width="987" height="443" alt="image" src="https://github.com/user-attachments/assets/fd0b747d-52cf-4c3c-9411-bcddac26c6ec" />
-Imagen 8. Transformada de Fourier y espectro de magnitudes frecuenciales, Mujer 1.\
+Imagen 11. Transformada de Fourier y espectro de magnitudes frecuenciales, Mujer 1.\
   <img width="617" height="511" alt="image" src="https://github.com/user-attachments/assets/dba61d90-4375-414e-8d2a-e41e47f4e601" />
   
-Imagen 9. Caracteristicas de la señal, Mujer 1.\
+Imagen 12. Caracteristicas de la señal, Mujer 1.\
   <img width="263" height="82" alt="image" src="https://github.com/user-attachments/assets/3dd95683-c316-4a11-9d43-5688b6afb1d0" />
 
 
 - MUJER 2:
 
-Imagen 10. Señal en dominio del tiempo, Mujer 2\
+Imagen 13. Señal en dominio del tiempo, Mujer 2\
   <img width="992" height="438" alt="image" src="https://github.com/user-attachments/assets/8a70deab-3fca-4a75-9a9f-027c6fd3554b" />
-Imagen 11. Transformada de Fourier y espectro de magnitudes frecuenciales, Mujer 2.\
+Imagen 14. Transformada de Fourier y espectro de magnitudes frecuenciales, Mujer 2.\
   <img width="630" height="505" alt="image" src="https://github.com/user-attachments/assets/226b3471-84fe-4b7d-8dd0-fb91d0750f1f" />
 
-Imagen 12. Caracteristicas de la señal, Mujer 2.\
+Imagen 15. Caracteristicas de la señal, Mujer 2.\
   <img width="252" height="77" alt="image" src="https://github.com/user-attachments/assets/5b3cf7a2-01de-4772-b359-9dae1b9f964c" />
 
 
 - MUJER 3:
 
-Imagen 13. Señal en dominio del tiempo, Mujer 3\
+Imagen 16. Señal en dominio del tiempo, Mujer 3\
   <img width="987" height="437" alt="image" src="https://github.com/user-attachments/assets/d474dc02-2d34-4fb5-b6c1-2cb7875898b5" />
-Imagen 14. Transformada de Fourier y espectro de magnitudes frecuenciales, Mujer 3.\
+Imagen 17. Transformada de Fourier y espectro de magnitudes frecuenciales, Mujer 3.\
   <img width="636" height="497" alt="image" src="https://github.com/user-attachments/assets/0f32fffe-6dec-4a1f-a312-af1157a94af4" />
   
-Imagen 15. Caracteristicas de la señal, Mujer 3.\
+Imagen 18. Caracteristicas de la señal, Mujer 3.\
   <img width="258" height="82" alt="image" src="https://github.com/user-attachments/assets/1e522bae-9de4-44b5-8a66-633bfd50f5e2" />
 
 
